@@ -136,7 +136,43 @@ footer{
     border-right: 0;
 }
 
+#allLinks a {
+    color: #417447;
+}
+
 #beetlePic{
     width: 200px;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    nav > ul {
+        flex-direction: column;
+    }
+
+    .navItem{
+        margin: 10px 0px;
+        font-size: x-large;
+    }
+
+    small{
+        font-size: medium;
+    }
+
+    .natPark{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    footer > div{
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
 }
