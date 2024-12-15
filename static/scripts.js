@@ -2,6 +2,7 @@ const select = document.getElementById('parkType')
 var img = document.getElementById("miscParkImg")
 var p = document.getElementById("miscParkInfo")
 var h2 = document.getElementById("miscParkTitle")
+var titles = document.getElementById("swapTitle")
 
 select.addEventListener('change', displayPark)
 
@@ -10,6 +11,7 @@ function spefParkChoice(pic,blurb,title,alt){
     img.setAttribute('src',`static/images/${pic}.jpg`)
     img.setAttribute('alt',alt)
     p.innerHTML=blurb
+    titles.innerHTML = title
 }
 
 function displayPark (){
@@ -25,5 +27,8 @@ function displayPark (){
     else if(choice=="nra"){
         let blurb="The Delware Water Gap National Recreation Area is in both New jersey and Pennsylvania. It has numerous waterfalls, most of which are a short walk off the main road. Theres also great hiking oppurnties with wonderful views down into the gap. The main road also has very nice views"
         spefParkChoice("delawareWaterGap",blurb,"Delaware Water Gap National Recreation Area","Dingman falls")
+    }
+    else{
+        spefParkChoice("acadia1",null,"Select One","Picture of Acadia coast")
     }
 }

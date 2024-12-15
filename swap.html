@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Multie</title>
+        <title id="swapTitle">Multie</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="static/style.css">
@@ -21,7 +21,7 @@
         <main>
             <form>
                 <select id="parkType">
-                    <option>Select one</option>
+                    <option value="none">Select one</option>
                     <option value="nm">National Monuments</option>
                     <option value="npres">National Preserve</option>
                     <option value="nra">National Recreation Area</option>
@@ -30,7 +30,7 @@
 
             <h2 id="miscParkTitle">Select a park</h2>
             <div class="mainImg">
-                <img id="miscParkImg">
+                <img id="miscParkImg" src="static/images/acadia1.jpg">
             </div>
             <p id="miscParkInfo"></p>
         </main>
