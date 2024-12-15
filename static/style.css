@@ -123,6 +123,10 @@ small{
     margin: 5px;
 }
 
+#miscParkInfo{
+    width: 60%;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -161,6 +165,10 @@ footer{
 
     .natPark{
         flex-direction: column;
+    }
+
+    #miscParkInfo{
+        width: 100%;
     }
 
     footer{
