@@ -127,6 +127,12 @@ small{
     width: 60%;
 }
 
+.formEl{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
 footer{
     display: flex;
     flex-direction: row;

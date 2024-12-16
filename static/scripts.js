@@ -29,6 +29,6 @@ function displayPark (){
         spefParkChoice("delawareWaterGap",blurb,"Delaware Water Gap National Recreation Area","Dingman falls")
     }
     else{
-        spefParkChoice("acadia1",null,"Select One","Picture of Acadia coast")
+        spefParkChoice("acadia1","Select one","Select One","Picture of Acadia coast")
     }
 }
