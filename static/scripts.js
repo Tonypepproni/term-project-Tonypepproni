@@ -1,10 +1,8 @@
-const select = document.getElementById('parkType')
+var select = document.forms.selectForm.parkType; // Reference the element
 var img = document.getElementById("miscParkImg")
 var p = document.getElementById("miscParkInfo")
 var h2 = document.getElementById("miscParkTitle")
 var titles = document.getElementById("swapTitle")
-
-select.addEventListener('change', displayPark)
 
 function spefParkChoice(pic,blurb,title,alt){
     h2.innerHTML=title
@@ -32,3 +30,5 @@ function displayPark (){
         spefParkChoice("acadia1","Select one","Select One","Picture of Acadia coast")
     }
 }
+
+select.addEventListener('change', displayPark)

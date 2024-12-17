@@ -19,6 +19,7 @@
             </ul>
         </nav>
         <main>
+            <button id="darkMode">Dark Mode</button>
             <div class="mainImg">
                 <img src="static/images/acadia2.jpg" alt="Acadia forest from atop of Gorham Mountain">
             </div>
@@ -29,7 +30,7 @@
                 excepet they are trees and not rocks. The best part is the animals, if you catch one
                 you can take it and no one will stop you. A lot also have history.
             </p>
-            <form method="post">
+            <form method="get" id="user" action="submit.htmla">
                 <label>Emailing form</label>
                 <div class="formEl">
                     <label for="name">Name</label>
@@ -43,6 +44,7 @@
                 <input type="checkbox" id="like" name="like">
                 <br>
                 <button type="submit">submit</button>
+                <label id="error"></label>
             </form>
         </main>
         <footer>
@@ -57,6 +59,6 @@
                 <img src="static/images/hercbeetle.jpg" alt="a cool ass beetle">
             </div>
         </footer>
-        <script src="static/scripts.js"></script> 
+        <script src="static/dark.js"></script>
     </body>
 </html>
