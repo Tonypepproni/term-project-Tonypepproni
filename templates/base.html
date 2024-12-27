@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/style.css">      
+    </head>
+    <body>
+        <header>
+            <h1>Cool Park Sites</h1>
+            <h4>Home</h4>
+        </header>
+        <nav>
+            <ul>
+                {% for nav in nav_items %}
+                    <li class="navItem"><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% block main %}
+        {% endblock %}
+        <footer>
+            <div id="allLinks">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="nationalPark.html">National Parks</a></li>
+                    <li><a href="swap.html">Misc</a></li>
+                </ul>
+            </div>
+            <div id="beetlePic">
+                <img src="static/images/hercbeetle.jpg" alt="a cool ass beetle">
+            </div>
+        </footer>
+        <script src="static/dark.js"></script>
+    </body>
+</html>

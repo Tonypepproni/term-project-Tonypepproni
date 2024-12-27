@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<main>
+    <button id="darkMode">Dark Mode</button>
+    <div class="mainImg">
+        <img src="static/images/acadia2.jpg" alt="Acadia forest from atop of Gorham Mountain">
+    </div>
+    <small>Acadia National Park<br>Gorham Mountain<br>July 26th 2024</small>
+
+    <p class="mainText">
+        The National Park Service preserves and protects large swaths of American nature and history.
+        As of December 16th 2024 there are 433 National Park sites. The newest one is the Frances
+        Perkings National Monument. Every state has at least one National Park site, with Delware being
+        the last state to recieve a park.<br><br>
+        National Parks Allow for easy ways to enjoy rare aspects of nature and learn new history.
+        Every National Park is unique and has its own reason for being a park. Here are the park
+        sites that I have been too and my favorite pictures from them.
+    </p>
+    <form method="get" id="user" action="submit.htmla">
+        <label>Emailing form</label>
+        <div class="formEl">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="formEl">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <label for="like">Do YoU lIkE tHe BuG??</label>
+        <input type="checkbox" id="like" name="like">
+        <br>
+        <button type="submit">submit</button>
+        <label id="error"></label>
+    </form>
+</main>
+{% endblock %}

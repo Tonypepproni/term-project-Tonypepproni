@@ -9,10 +9,12 @@ class Basic(View):
         self.template_name = template_name
         self.nav_items=[
             {'name':'Home','url':'/'},
-            {'name':'Teams','url':'/team'},
-            {'name':'Sign Up','url':'/signup'},
-            {'name':'About Us','url':'/aboutus'},
-            {'name':'e-Mitre','url':'/emitre'}
+            {'name':'National Parks','url':'/natPark'},
+            {'name':'Monuments','url':'/natMonument'},
+            {'name':'Historical Parks','url':'/history'},
+            {'name':'Water & Trails','url':'/Wat&Tra'},
+            {'name':'Recration & Preserve','url':'/Rec&Pre'},
+            {'name':'Miscelleous','url':'/misc'},
         ]
     
     def dispatch_request(self):
@@ -22,11 +24,9 @@ class Basic(View):
             name=self.name
         )
 
-main.add_url_rule('/','home')
-
- 
-#main.add_url_rule(temp['route'], view_func = Basic.as_view(temp['name'],temp['name'], temp['tempName']))
-
+main.add_url_rule('/', view_func = Basic.as_view('home','home','home.html'))
+main.add_url_rule('/nationalPark', view_func = Basic.as_view('NationalPark','NationalPark','nationalPark.html'))
+main.add_url_rule('/swap', view_func = Basic.as_view('Swap','Swap','swap.html'))
 
 if __name__ =='__main__':
     main.run(debug=True)     

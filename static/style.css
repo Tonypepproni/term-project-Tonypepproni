@@ -113,6 +113,10 @@ small{
     margin: 10px;
 }
 
+.mainText{
+    max-width: 500px;
+}
+
 .natPark > p {
     margin: 5px;
 }
