@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from flask.views import View
+import json
 
 main=Flask(__name__)
 
@@ -23,6 +24,11 @@ class Basic(View):
             nav_items=self.nav_items,
             name=self.name
         )
+
+with open("static/info/parks.json") as parkInfo:
+    file_contents= json.load(parkInfo)
+
+print(file_contents)
 
 main.add_url_rule('/', view_func = Basic.as_view('home','home','home.html'))
 main.add_url_rule('/nationalPark', view_func = Basic.as_view('NationalPark','NationalPark','nationalPark.html'))

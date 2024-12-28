@@ -1,14 +1,14 @@
 {
     "np":{
         "Acadia":{
-            "name":"Acadia",
+            "name":"Acadia National Park",
             "dates":["7/23/24-7/25/24"],
             "words":"At Acadia from where I camped I could always hear the ocean. The fog barley let up but was part of the Maine experince. Then when you walk along the granite cliffs the mist of the ocean sprays on your face. These wonderful red cliffs are a relaxing place to sit and just enjoy the sound. Amoung the cliffs you can find tide pools, I found only one with a single crab and about 100 snails in it. Right off the beach is old growth forests that look like they are right out of fairy tale. One of the most amazing experinces I had was the beehive trail. This is on a cliff where you hang on to metal rungs to climb up. At the top I funnily got service and could for a few moments see the only sand beach through the fog.",
             "mainImg":{},
             "imgs":[]            
         },
         "Shenandoah":{
-            "name":"Shenandoah",
+            "name":"Shenandoah National Park",
             "dates":["8/27/2024"],
             "words":"Being able to swim in water falls on a hot summer day was such a relief. In addtion to amazing wild life, there are wonderful views. Right off the main road running through the park you can see almost all of it. The vast mountains with clouds casting their shadows down upon them.",
             "mainImg":{},
@@ -16,31 +16,111 @@
         }
     },
     "nm":{
-
+        "StaLib":{
+            "name":"Statue of Liberty",
+            "dates":["11/8/2024"],
+            "words":"When I went I was able to in the crown. The view from it is not what I expected. It was a pretty cool experince but the view is facing out of the harbor so you cannot see lower manhattan. Ellis island was pretty cool mainly due to its history.",
+            "mainImg":{},
+            "imgs":[]
+        }
     },
     "nhp":{
         "CeaderCreek":{
-            "name":"Ceader Creek & Belle Grove",
+            "name":"Ceader Creek & Belle Grove National Historical Park",
             "dates":["8/29/2024"],
             "words":"I did not get to spend too much time here but the time I did was sad. The civil war battle was fought around a plantation. It was weird to stand on a plantation and not just read about it. The worst part was that the slave grave yard was in view of the house so anyone going there could be seen",
             "mainImg":{},
             "imgs":[]
         },
         "WeirFarn":{
-            "name":"Weir Farm",
+            "name":"Weir Farm National Historical Park",
             "dates":["9/27/2024"],
             "words":"This is the National Park for art. I got to go here with my best friend who is an amazing artist. They wont admit it but theyre really good. Here I got to go on a tour of the Weir farm house and the young studio. The house had these amazing windows with small bits of stained glass in the center. These glass panes where collected all over europes. Then the young studio was a scuplting studio that is three stories. It has this amazing light inside and the high celling is so pretty. After going on this tour, we walked the gardens and found a nice spot in the park. Once there we did our own art to do with pencil. My friend did an amazing job at drawing the house. I tried my best at drawing a bench. The reason we did what we saw is because Weir was a impressionist.",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "Boston":{
+            "name":"Boston National Historic Park",
+            "dates":["10/18/2024"],
+            "words":"This park is huge. It covers almost all revolutionary war sites in boston. There is a building with a unicorn on top,",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "MinMan":{
+            "name":"Minute Man National Historic Park",
+            "dates":["10/19/2024"],
+            "words":"This park is where the first battle took place in the revoulationary war. It also has part of Paul Reveres ride. On his ride he encountred a friend who was on a date. He then abbondend his date and help spread the word of the british coming.",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "ThoEdi":{
+            "name":"Thomas Edison National Historical Park",
+            "dates":["12/27/2024"],
+            "words":"This park was the first one that I went to with my mother. From my experinces at Vanderbilt Mansion I learned to not undersell a national park. This park kept my belief. This park was made up of his development labratory and his mansion. You walk into the three story lab and the first room is a library. It was three stories opened all the way up with wrap around floors on each level. It was floor to celling books with over 20 paintings and picutres. There was also a white stone statue. The main machine shop had belts and shafts on the celling to power the massive machines. On the top floor they had the first phonograph ever made. They also had an assortment of phonographs that where made later. We were lucky enough to actually hear them play music on two of them. It was weird and not what I expected. The music was very clear and pretty loud",
             "mainImg":{},
             "imgs":[]
         }
     },
     "nhs":{
-
+        "JFKHouse":{
+            "name":"John Fitzgerald Kennedy National Historic Site",
+            "dates":["10/18/2024"],
+            "words":"This home was the house of JFK for only three years in his early life. After his death this home became a place for people to mourn. It is now a way to see life at the time but his early up bringing",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "FreOlm":{
+            "name":"Fredrick Law Olmsted National Historic Site",
+            "dates":["10/18/2024"],
+            "words":"Fredrick Law Olmsted was a amazing landscape architiet. The grounds that his home is on reflects this career. The use of plants break the grounds up into nice parts. There is also this huge tree that in the fall looks like what fall is. The house on the opposite hand is a chaotic mess on the outside.",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "BosAfr":{
+            "name":"Boston African American National Historic Site",
+            "dates":["10/18/2024"],
+            "words":"This site shows how progressive boston was when it came to equality. The main part of this park is in a beautifuil neighborhood. This holds a segeragated school that did not last long because boston de-segregated",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "SprArm":{
+            "name":"Springfield Armory National Historic Site",
+            "dates":["10/20/2024"],
+            "words":"This was the only time when the U.S. goverment manufactured their own guns. This was a rare collection of weapons manufactured here. Such as a multi-fire gun thats just a row of barrels. It also had certain numbered M1 grands such as 1 million",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "VanMan":{
+            "name":"Vanderbilt Mansion National Historic Site",
+            "dates":["11/11/2024"],
+            "words":"This is my favorite non national park park site that I went to in 2024. I got to go here with my partner which made it even better. Before I went I didnt expect much since it was the mansion of some rich people. I was completely blown away, first off the grounds. The main entrance goes over a small stream and then you see the house. The house on the outside was a bit ugly in my opinion. Next to the house is a huge garden, its main foccal point was a statue of a woman. The garden also was multi-level and had multiple fountains. The inside of the house was nothing like the outside. The first floor was more then I could expect. In their dinning room they had a model of the known solar system that actually predicted the movments of the planets accuretly. This group of Vanderbilt's where big fan of tapestrys and had them all over the house. The best part was being able to nerd out with my partner in a national park",
+            "mainImg":{},
+            "imgs":[]
+        },
+        "FDRHome":{
+            "name":"Home of Franklin D. Roosevelt National Historic Site",
+            "dates":["11/11/2024"],
+            "words":"This was probably least liked national park of 2024. The main reason for this I think was how crowded it was. FDR was a momma's boy and was it obvious. The entire house seemed like it was a temple to him. Even though it is right next to the Vanderbilt's house it did not have as nice of a view. It did have a crazy amount of trees all over the place",
+            "mainImg":{},
+            "imgs":[]
+        }
     },
     "npres":{
-
+        "BigCypress":{
+            "name":"Big Cypress National Preserve",
+            "dates":["10/5/2024"],
+            "words":"At Big Cypress I was able to go off roading with my grandmother. On this road you drive through Cypress groves and swamp all while safley on a road. We went in the wet season which is not the best time of year to see wildlife. Even in the wet season I saw over 30 birds. I only saw one alligator which was a small one. The water was amazingly clear and you could see straight to the bottom. The cypress trees work to clean the water and act as a natural filter. These trees send out roots that sometimes stick out of the water. These parts sticking out of the water are called knees. The trees are covered with aerial plants.",
+            "mainImg":{},
+            "imgs":[]
+        }
     },
     "nra":{
-
+        "DelWat":{
+            "name":"Delaware Water Gap National Recreation Area",
+            "dates":["11/1/2024"],
+            "words":"I went here the day after my birthday to celebrate it. When I went to shenandoah I found a love for water falls. This park has so many waterfalls and almost all of them are super easy to get to. I was able to see six waterfalls without having to go to far on a trail. I did go during a drought but even still most of the waterfalls looked amazing. It was an awseome way to ring in 22",
+            "mainImg":{},
+            "imgs":[]
+        }
     }
 }
