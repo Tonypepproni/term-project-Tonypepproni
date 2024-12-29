@@ -99,12 +99,17 @@ small{
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .natPark{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
     margin: 20px 0px;
+    color: #0C5313;
 }
 
 .natParkImg{

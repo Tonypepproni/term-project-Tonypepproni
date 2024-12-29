@@ -3,16 +3,22 @@
         "Acadia":{
             "name":"Acadia National Park",
             "dates":["7/23/24-7/25/24"],
+            "url":"/natPark/acadia",
             "words":"At Acadia from where I camped I could always hear the ocean. The fog barley let up but was part of the Maine experince. Then when you walk along the granite cliffs the mist of the ocean sprays on your face. These wonderful red cliffs are a relaxing place to sit and just enjoy the sound. Amoung the cliffs you can find tide pools, I found only one with a single crab and about 100 snails in it. Right off the beach is old growth forests that look like they are right out of fairy tale. One of the most amazing experinces I had was the beehive trail. This is on a cliff where you hang on to metal rungs to climb up. At the top I funnily got service and could for a few moments see the only sand beach through the fog.",
             "mainImg":{},
-            "imgs":[]            
+            "imgs":[],
+            "PreImg":{"img":"images/acadia/acadiaPre.jpg","alt":"Acadia national park granite coast"},
+            "PreText":"Acadia is the only national park in the state of Maine. It offers amazing granite cliff covered coast lines with very few sand beaches. There are many amazing view from the numerous mountains in the park. On clear days the main park can be seen from a near by penisula."            
         },
         "Shenandoah":{
             "name":"Shenandoah National Park",
             "dates":["8/27/2024"],
+            "url":"/natPark/shenandoah",
             "words":"Being able to swim in water falls on a hot summer day was such a relief. In addtion to amazing wild life, there are wonderful views. Right off the main road running through the park you can see almost all of it. The vast mountains with clouds casting their shadows down upon them.",
             "mainImg":{},
-            "imgs":[]
+            "imgs":[],
+            "PreImg":{"img":"images/shenandoah/shenPre.jpg","alt":"Dark Hallow falls at Shenandoah"},
+            "PreText":"Shenandoah is the only national park in the state of Virgina. Inside the park is breath taking views of mountains right off the main road. The park is long and skinny and offers many viewpoints along this road. In addition to these mountains are stunning waterfalls, a few of which you can swim in."
         }
     },
     "nm":{

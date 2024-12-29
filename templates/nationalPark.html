@@ -1,9 +1,10 @@
 {% extends 'base.html' %}
 
+{% block main %}
 <main>
     <button id="darkMode">Dark Mode</button>
     <div class="mainImg">
-        <img src="static/images/shen2.jpg" alt="Dark Hollow Falls Shenandoah">
+        <img src="static/images/shenandoah/shenOwl.jpg" alt="Dark Hollow Falls Shenandoah">
     </div>
     <small>Shenandoah National Park<br>Dark Hollow Falls<br>August 28th 2024</small>
 
@@ -14,21 +15,18 @@
         and exhibits. They can only be made by an act of congress.
     </p>
 
-    <div class="natPark">
-        <div class="natParkImg"> 
-            <img src="static/images/acadia1.jpg" alt="Acadia national park granite coast">
+    <h2>I have been to {{ parks | length }}/63</h2>
+
+    {% for park in parks.values() %}
+    <a href="{{ park.url }}">
+        <div class="natPark">
+            <div class="natParkImg">
+                <img src="{{ url_for('static', filename=park.PreImg.img) }}" alt="{{ park.PreImg.alt }}">
+            </div>
+            <p>{{ park.PreText }}</p>
         </div>
-        <p>Acadia is the only national park in the state of Maine. It offers amazing granite cliff covered coast lines with very few sand beaches.
-            There are many amazing view from the numerous mountains in the park. On clear days the main park can be seen from a near by penisula.
-        </p>
-    </div>
-    <div class="natPark">
-        <div class="natParkImg">
-            <img src="static/images/shenOwl.jpg" alt="An owl at Shenandoah national park">
-        </div>
-        <p>Shenandoah is the only national park in the state of Virgina. Inside the park is breath taking views of mountains right off
-            the main road. The park is long and skinny and offers many viewpoints along this road. In addition to these mountains are
-            stunning waterfalls, a few of which you can swim in.
-        </p>
-    </div>
+    </a>
+    {% endfor %}
+
 </main>
+{% endblock %}
