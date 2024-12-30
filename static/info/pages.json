@@ -1,0 +1,21 @@
+{
+    "home":{
+        "route":"/",
+        "name":"home",
+        "tempName":"home.html",
+        "type":"Basic"
+    },
+    "nationalPark":{
+        "route":"/natPark",
+        "name":"NationalPark",
+        "tempName":"nationalPark.html",
+        "type":"genPark"
+    },
+    "acadia":{
+        "route":"/natPark/acadia",
+        "name":"acadia",
+        "tempName":"acadia.html",
+        "type":"park"
+
+    }
+}

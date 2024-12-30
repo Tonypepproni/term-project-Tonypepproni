@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="mainImg">
+    <img src="{{ url_for('static', filename=parks.mainImg) }}">
+</div>
+
+<p>{{ parks.words }}</p>
+{% endblock %}

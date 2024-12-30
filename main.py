@@ -41,15 +41,25 @@ class park(Basic):
 with open("static/info/parks.json") as parkInfo:
     file_contents= json.load(parkInfo)
 
+with open("static/info/pages.json") as templates:
+    temps = json.load(templates)
+
 natParks = file_contents["np"]
+natParkKeys=list(natParks.keys())
+natParkCount=0
 
-print(natParks)
+for i in temps:
+    temp = temps[i] 
 
-print(((natParks['Acadia'])["PreImg"])["img"])
+    if temp['type'] == "Basic":
+        main.add_url_rule(temp['route'], view_func=Basic.as_view(temp['name'], temp['name'], temp["tempName"]))
+    elif temp['type'] == "park":
+        singlePark=natParks[(natParkKeys[natParkCount])]
+        natParkCount+=1
+        main.add_url_rule(temp['route'], view_func=park.as_view(temp['name'], temp['name'], temp["tempName"],singlePark))
+    elif temp['type'] == 'genPark':
+        main.add_url_rule(temp['route'], view_func=park.as_view(temp['name'], temp['name'], temp['tempName'], natParks))
 
-main.add_url_rule('/', view_func = Basic.as_view('home','home','home.html'))
-main.add_url_rule('/natPark', view_func = park.as_view('NationalPark','NationalPark','nationalPark.html',natParks))
-main.add_url_rule('/swap', view_func = Basic.as_view('Swap','Swap','swap.html'))
 
 if __name__ =='__main__':
     main.run(debug=True)     
